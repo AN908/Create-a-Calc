@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="titlebox">
+      <h1>Cat Price Calculator</h1>
+    </div>
+
+    <p>How old is the cat in years <input type="number" id="catyear" /></p>
+    <p>
+      How much do you spend for your cats food in the past year
+      <input id="foodspent" type="number" />
+    </p>
+    <p>
+      How much did you spend on your cat toys
+      <input id="toyspend" type="number" />
+    </p>
+    <p>
+      How many times have you taken your cat to the vet
+      <input type="number" id="vetspend" />
+    </p>
+    <p>
+      How much do you spent on cat furniture
+      <input id="furniturespend" type="number" />
+    </p>
+    <p>
+      If you got this cat this year how much did you spent to get this cat
+      <input type="number" id="catfee" />
+    </p>
+    <p>
+      Did you neutured/spayed your cat this year?
+      <button id="neuturedBTN">Yes</button><button>No</button>
+    </p>
+
+    <div>
+      <h2>
+        This is how much you spent on your cat/cats this year. This is a rough
+        estimate
+      </h2>
+      <p>Money spent on cat is <span id="catspent">------</span></p>
+      <button id="cat-price-BTN">Calculate</button>
+    </div>
+
+    <button id="clearBTN">Clear</button>
+  </body>
+</html>

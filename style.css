@@ -1,0 +1,41 @@
+html {
+  background: url(images/canva-colorful-cute-cats-illustration-desktop-wallpaper-KBBZLdpjLcM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+
+#titlebox {
+  width: 600px;
+  margin: auto;
+  background-color: lightgray;
+  border: 2px solid yellow;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+button {
+  margin-right: 20px;
+}
+
+input:hover {
+  border: 2px solid black;
+  transition: 3s;
+}
+
+#clearBTN {
+  margin-top: 20px;
+}
